@@ -235,3 +235,77 @@ body{
         flex-direction: column;
     }
 }
+/* Mobile phones */
+@media (max-width: 480px) {
+    .a-element {
+        font-size: 16px;
+    }
+
+    .Logo {
+        font-size: 24px;
+    }
+
+    .home {
+        padding: 10px;
+    }
+
+    .home-left {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .home-right {
+        padding: 10px;
+    }
+
+    .img {
+        height: auto;
+        width: 100%;
+    }
+
+    .home-h1 {
+        font-size: 24px;
+    }
+
+    .home-p {
+        font-size: 16px;
+    }
+
+    .skill-section {
+        padding: 10px;
+    }
+
+    .skill {
+        padding: 20px;
+    }
+
+    .img1 {
+        height: auto;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .img3 {
+        height: auto;
+        width: 100%;
+    }
+
+    .art-img {
+        height: auto;
+        width: 100%;
+    }
+
+    .certificate p, .education p {
+        font-size: 16px;
+    }
+
+    .contact-info {
+        font-size: 20px;
+    }
+
+    .social-icon-img {
+        height: 40px;
+        padding: 20px;
+    }
+}
+
