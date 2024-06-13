@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: darkviolet;
+    background-color: hsla(286, 95%, 49%,0.3);
     border-radius: 40px;
     padding: 10px;
     position:sticky;
@@ -235,7 +235,6 @@ body{
         flex-direction: column;
     }
 }
-/* Mobile phones */
 @media (max-width: 480px) {
     .a-element {
         font-size: 16px;
@@ -277,6 +276,7 @@ body{
 
     .skill {
         padding: 20px;
+        margin: 10px 0; /* Added margin for better spacing */
     }
 
     .img1 {
@@ -307,5 +307,17 @@ body{
         height: 40px;
         padding: 20px;
     }
-}
 
+    .skill-img {
+        height: 40px; /* Adjusted icon size for mobile */
+        margin: 10px; /* Added margin for better spacing */
+    }
+
+    .skill {
+        text-align: center; /* Center-align skill content */
+    }
+
+    .navbar-right {
+        justify-content: center; /* Center the navbar-right elements */
+    }
+}
