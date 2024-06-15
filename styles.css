@@ -318,6 +318,13 @@ body{
     }
 
     .navbar-right {
-        justify-content: center; /* Center the navbar-right elements */
+        margin-left:0px;
+        margin-right:0px;
+        font-size: 2px;
+    }
+   .a-element{
+        margin-left:0px;
+        margin-right:0px;
+        font-size: 12.5px;
     }
 }
